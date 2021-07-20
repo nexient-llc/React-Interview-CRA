@@ -5,9 +5,87 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e3e3e3;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sw-container-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid gray;
+  width: 80%;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid black;
+  background-color: white;
+  margin: 15px;
+}
+
+.card-content {
+  display: flex;
+  padding: 10px;
+}
+
+.card-header {
+  border-bottom: 1px solid #e3e3e3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-content-text {
+  color: blue;
+}
+
+.card-director-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 5px;
+}
+
+.card-director-section > p {
+  margin: 3px;
+}
+
+.card-producer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.card-producer-section > div {
+  align-items: flex-start;
+  margin: 3px;
+}
+
+.card-producerr-section > p {
+  margin: 3px;
+}
+
+.card-header-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header-details > h3 {
+  color: #e3e3e3;
+  margin-top: 3px;
+  margin-bottom: 0px;
 }

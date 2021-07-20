@@ -86,3 +86,20 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Remove before pushing.
+
+AC
+As a user I want to be able to see a list of Star Wars movies and details about them.
+
+- A card should be displayed for each movie returned from the api
+- Details for each move should be displayed on the card per the design
+- The search box should narrow down the cards displayed by movie title
+
+## Notes
+
+- Container to fetch data and pass that to the card components.
+- Want to have a search feature.
+  - How to filter movies?
+    - by title probably
+- Card component to display the data.

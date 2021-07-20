@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import SWContainer from "./views/SWContainer.js";
 
 function App() {
   return (
     <div className="App">
-      <p>Start by deleting this element!</p>
+      <SWContainer />
     </div>
   );
 }
